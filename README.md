@@ -1,50 +1,44 @@
-#### TRIADS
-
-###### fields
+###### Fields
 
 | subject  | predicate        | object           |
 |:---------|:-----------------|:-----------------|
-| guts/iri | guts/iri/literal | guts/iri/literal |
+| GUTS/IRI | GUTS/IRI/literal | GUTS/IRI/literal |
 
-###### functions
+###### Functionality
 
 | read   | write         | execute        |
 |:-------|:--------------|:---------------|
 | SELECT | INSERT/UPDATE | START...COMMIT |
 
-#### HEPTADS
-
 ###### Q&A
 
-| questions | answers      |
-|:----------|:-------------|
-| who       | people       |
-| where     | places       |
-| when      | times        |
-| why       | tasks        |
-| what      | "hard" wares |
-| how       | "soft" wares |
-| did       | true/false   |
+| questions | answers    |
+|:----------|:-----------|
+| who       | people     |
+| where     | places     |
+| when      | times      |
+| why       | tasks      |
+| what      | hard wares |
+| how       | soft wares |
+| did       | true/false |
 
-###### clearance
+###### AuthNZ
 
-| schema   | shared with  |
-|:---------|:-------------|
-| red      | mallory      |
-| orange   | everyone     |
-| yellow   | guests       |
-| green    | friends      |
-| blue     | family       |
-| indigo   | daemons      |
-| violet   | myself       |
+| store  | shared with     |
+|:-------|:----------------|
+| red    | mallory         |
+| orange | everyone        |
+| yellow | guests          |
+| green  | friends/members |
+| blue   | family/admins   |
+| indigo | daemons         |
+| violet | self            |
 
-#### DODECADS
-
-###### operations
+###### Operations
 
 1. initialize store
-2. create a (reusable) subject
-3. create a (reusable) predicate
+2. create a (non-literal) subject
+3. create a (non-literal) predicate
 4. this predicate+object combination describes that subject
 5. this predicate+object combination no longer describes that subject
 6. select all subjects
